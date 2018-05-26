@@ -1,7 +1,8 @@
 docker-oracle-apex-ords
 ============================
 
-Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.1 and ORDS 3.0.9 on Tomcat
+Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.4 and ORDS 3.0.9 on Tomcat
+
 # Option 1. Own docker image, with custom password
 
 #### Get the image code from github:
@@ -21,11 +22,11 @@ Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.1 and O
 
 #### Installation:
 
-    docker pull araczkowski/oracle-apex-ords
+    docker pull zhouhao27/oracle-apex-ords
 
 #### Run the container based on prebuilt image from docker with 8080, 1521, 22 ports opened:
 
-    docker run -d --name <own-container-name> -p 49160:22 -p 8080:8080 -p 1521:1521 araczkowski/oracle-apex-ords    
+    docker run -d --name <own-container-name> -p 49160:22 -p 8080:8080 -p 1521:1521 zhouhao27/oracle-apex-ords    
 
 #### Password for SYS & SYSTEM & Tomcat ADMIN & APEX ADMIN:
 

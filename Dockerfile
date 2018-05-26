@@ -1,6 +1,6 @@
 FROM ubuntu:14.04
 
-MAINTAINER Andrzej Raczkowski <araczkowski@gmail.com>
+MAINTAINER Zhou Hao <zhou.hao.27@gmail.com>
 
 ARG PASSWORD
 ENV PASSWORD ${PASSWORD:-secret}
