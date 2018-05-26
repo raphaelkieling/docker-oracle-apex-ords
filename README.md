@@ -7,7 +7,7 @@ Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.4 and O
 
 #### Get the image code from github:
 
-    git clone --depth=1 https://github.com/araczkowski/docker-oracle-apex-ords.git <own-image-name>
+    git clone --depth=1 https://github.com/zhouhao27/docker-oracle-apex-ords.git <own-image-name>
     cd <own-image-name>
 
 #### Building your own image, with custom password:
