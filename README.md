@@ -1,7 +1,7 @@
 docker-oracle-apex-ords
 ============================
 
-Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.4 and ORDS 3.0.9 on Tomcat
+Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 18.1 and ORDS 3.0.9 on Tomcat
 
 # Option 1. Own docker image, with custom password
 
@@ -61,3 +61,7 @@ Oracle Express Edition 11g Release 2 on Ubuntu 14.04.1 LTS with APEX 5.1.4 and O
     workspace: INTERNAL
     user: ADMIN
     password: <custom-password> / secret
+
+## TODO
+
+Add volume for oracle db, Tomcat etc.
